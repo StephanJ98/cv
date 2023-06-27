@@ -25,7 +25,7 @@ const Header = () => {
                     <div className='flex flex-row justify-center gap-4'>
                         <div className="avatar">
                             <div className="w-24 rounded">
-                                <img src="src\assets\photoIRL.jpg" />
+                                <img src="src/assets/photoIRL.jpg" />
                             </div>
                         </div>
                         <div className='flex flex-wrap justify-center gap-6'>

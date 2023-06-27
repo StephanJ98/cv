@@ -16,7 +16,7 @@ const Spain = (props: SVGProps<SVGSVGElement>) => {
 
 const Galicia = ({ className }: { className: string }) => {
     return (
-        <img src="src\assets\flagGAL.png" alt="Galician flag" width={16} height={16} className={`rounded-sm ${className}`} />
+        <img src="src/assets/flagGAL.png" alt="Galician flag" width={16} height={16} className={`rounded-sm ${className}`} />
     )
 }
 
@@ -24,7 +24,7 @@ const About = () => {
     return (
         <div className="hero min-h-screen bg-transparent" id="about">
             <div className="hero-content flex-col lg:flex-row">
-                <img src="src\assets\photoAvatar.jpg" className="max-w-xs md:max-w-sm rounded-lg shadow-2xl" />
+                <img src="src/assets/photoAvatar.jpg" className="max-w-xs md:max-w-sm rounded-lg shadow-2xl" />
                 <div className="pl-4">
                     <h1 className="text-5xl font-bold">Hi I'm Stéphan Jeandon</h1>
                     <p className="py-6">

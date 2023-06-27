@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer footer-center p-10 bg-primary text-primary-content rounded-t-2xl">
             <div className="avatar">
                 <div className="w-24 rounded-xl">
-                    <img src="src\assets\photoIRL.jpg" />
+                    <img src="src/assets/photoIRL.jpg" />
                 </div>
             </div>
             <div>
