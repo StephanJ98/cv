@@ -1,11 +1,12 @@
 import { SiTwitter, SiLinkedin, SiInstagram, SiGithub } from 'react-icons/si'
+import photoIRL from '../../assets/photoIRL.jpg'
 
 const Footer = () => {
     return (
         <footer className="footer footer-center p-10 bg-primary text-primary-content rounded-t-2xl">
             <div className="avatar">
                 <div className="w-24 rounded-xl">
-                    <img src="src/assets/photoIRL.jpg" />
+                    <img src={photoIRL} />
                 </div>
             </div>
             <div>

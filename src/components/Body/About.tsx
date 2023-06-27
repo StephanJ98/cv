@@ -2,6 +2,9 @@ import { SVGProps } from "react"
 import { MdOutlineSportsRugby } from 'react-icons/md'
 import { BiCycling } from 'react-icons/bi'
 
+import flagGAL from '../../assets/flagGAL.png'
+import photoAvatar from '../../assets/photoAvatar.jpg'
+
 const France = (props: SVGProps<SVGSVGElement>) => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36" {...props}><path fill="#ED2939" d="M36 27a4 4 0 0 1-4 4h-8V5h8a4 4 0 0 1 4 4v18z"></path><path fill="#002495" d="M4 5a4 4 0 0 0-4 4v18a4 4 0 0 0 4 4h8V5H4z"></path><path fill="#EEE" d="M12 5h12v26H12z"></path></svg>
@@ -16,7 +19,7 @@ const Spain = (props: SVGProps<SVGSVGElement>) => {
 
 const Galicia = ({ className }: { className: string }) => {
     return (
-        <img src="src/assets/flagGAL.png" alt="Galician flag" width={16} height={16} className={`rounded-sm ${className}`} />
+        <img src={flagGAL} alt="Galician flag" width={16} height={16} className={`rounded-sm ${className}`} />
     )
 }
 
@@ -24,7 +27,7 @@ const About = () => {
     return (
         <div className="hero min-h-screen bg-transparent" id="about">
             <div className="hero-content flex-col lg:flex-row">
-                <img src="src/assets/photoAvatar.jpg" className="max-w-xs md:max-w-sm rounded-lg shadow-2xl" />
+                <img src={photoAvatar} className="max-w-xs md:max-w-sm rounded-lg shadow-2xl" />
                 <div className="pl-4">
                     <h1 className="text-5xl font-bold">Hi I'm Stéphan Jeandon</h1>
                     <p className="py-6">

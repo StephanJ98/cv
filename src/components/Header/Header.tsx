@@ -1,5 +1,6 @@
 import { SiGithub, SiGmail, SiInstagram, SiLinkedin, SiTwitter } from 'react-icons/si'
 import { VscClose } from 'react-icons/vsc'
+import photoIRL from '../../assets/photoIRL.jpg'
 
 const Header = () => {
     const openModal = () => {
@@ -25,7 +26,7 @@ const Header = () => {
                     <div className='flex flex-row justify-center gap-4'>
                         <div className="avatar">
                             <div className="w-24 rounded">
-                                <img src="src/assets/photoIRL.jpg" />
+                                <img src={photoIRL} />
                             </div>
                         </div>
                         <div className='flex flex-wrap justify-center gap-6'>
