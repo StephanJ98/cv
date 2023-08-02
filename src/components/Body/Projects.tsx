@@ -44,7 +44,7 @@ const Projects = () => {
                     <h2 className="card-title">Strava LTHR Data & LTHRModule</h2>
                     <p>Small website that is capable of calculating heart zones thanks to Strava's .fit files. Your data is not stored. And a Node.js module used to calculate certain cardiac parameters and FTP zones, among others. Created to decentralize the data processing of the website of the previous project.</p>
                     <div className="card-actions justify-end w-full">
-                        <a href="https://strava-lthr.netlify.app/" className="btn btn-secondary rounded-md flex-auto">Website</a>
+                        <a href="https://strava-lthr.vercel.app" className="btn btn-secondary rounded-md flex-auto">Website</a>
                         <a href="https://github.com/StephanJ98/Strava_LTHR_Data" className="btn btn-primary rounded-md flex-auto">Repository URL</a>
                         <a href="https://github.com/StephanJ98/LTHRModule" className="btn btn-primary rounded-md flex-auto">Repository URL 2</a>
                         <a href="https://github.com/StephanJ98/Strava_LTHR_Data/releases" className="btn btn-secondary-content rounded-md flex-auto">Latest Release</a>
