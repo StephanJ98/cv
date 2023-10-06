@@ -49,7 +49,7 @@ const Experiences = () => {
                                 </div>
                             </div>
                         </li>
-                        <li className="step">
+                        <li className="step step-primary">
                             <div className="flex flex-col w-full lg:flex-row">
                                 <div className="join w-72" >
                                     <button className="btn join-item flex-auto">September 2021</button>
@@ -69,7 +69,7 @@ const Experiences = () => {
                                 </div >
                                 <div className="divider lg:divider-horizontal"></div>
                                 <div className="grid text-left">
-                                    <p className="flex w-full">Junior Web Developer at Invbit, Diseño y Desarrollo Web & Student</p>
+                                    <p className="flex w-full">Junior Web Developer at Invbit, Diseño y Desarrollo Web</p>
                                 </div>
                             </div>
                         </li>
