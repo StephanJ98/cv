@@ -53,11 +53,23 @@ const Experiences = () => {
                             <div className="flex flex-col w-full lg:flex-row">
                                 <div className="join w-72" >
                                     <button className="btn join-item flex-auto">September 2021</button>
-                                    <button className="btn join-item flex-auto">Now</button>
+                                    <button className="btn join-item flex-auto">October 2023</button>
                                 </div >
                                 <div className="divider lg:divider-horizontal"></div>
                                 <div className="grid text-left">
                                     <p className="flex w-full">Freelance Web Developer & Student</p>
+                                </div>
+                            </div>
+                        </li>
+                      <li className="step">
+                            <div className="flex flex-col w-full lg:flex-row">
+                                <div className="join w-72" >
+                                    <button className="btn join-item flex-auto">October 2023</button>
+                                    <button className="btn join-item flex-auto">Now</button>
+                                </div >
+                                <div className="divider lg:divider-horizontal"></div>
+                                <div className="grid text-left">
+                                    <p className="flex w-full">Junior Web Developer at Invbit, Diseño y Desarrollo Web & Student</p>
                                 </div>
                             </div>
                         </li>
